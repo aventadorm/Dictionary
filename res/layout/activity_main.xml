@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context="com.se.dictionary.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/dw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="DisplayActivity"
+        android:text="Open Dictionary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/aw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="AddActivity"
+        android:text="Add Words"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/ew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="EditActivity"
+        android:text="Edit Words"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/dew"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="DeleteActivity"
+        android:text="Delete Words"
+        android:textSize="25sp" />
+
+</LinearLayout>

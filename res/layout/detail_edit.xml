@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/cbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:onClick="Commit"
+        android:text="Confirm" />
+
+    <EditText
+        android:id="@+id/es"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/es"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="37dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/em"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ew"
+        android:layout_centerHorizontal="true"
+        android:text="Word"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/em"
+        android:layout_centerHorizontal="true"
+        android:text="Meaning"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/es"
+        android:layout_centerHorizontal="true"
+        android:text="Sentence"
+        android:textSize="25sp" />
+
+</RelativeLayout>
